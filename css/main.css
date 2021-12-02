@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1366px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  background-color: none;
+  padding: 2em 4em;
+}
+
+.navbar .container {
+  max-width: 1366px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2em;
+}
+
+.navbar .container a .reylogo {
+  width: 2.3em;
+  height: 2.3em;
+}
+
+.navbar .container a .reylogo:hover {
+  opacity: .8;
+}
+
+.navbar ul {
+  margin-top: .4em;
+}
+
+.navbar li {
+  display: inline-block;
+  font-weight: 600;
+  margin-left: 34px;
+}
+
+.navbar a:hover {
+  color: #DD2613;
+}
+
+.hero {
+  margin-top: 4.8em;
+  text-align: center;
+}
+
+.hero .container {
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.hero img {
+  width: 8.3em;
+  height: 8.3em;
+  border-radius: 50%;
+}
+
+.hero .heading {
+  font-size: 2.1em;
+  margin-top: .7em;
+}
+
+.hero .desc {
+  color: #989898;
+  font-size: .8em;
+  margin-top: .2em;
+  margin-bottom: 2.4em;
+}
+
+.hero-cta {
+  color: #f2f2f2;
+  font-weight: 600;
+  background-color: #DD2613;
+  padding: 15px 25px;
+  border-radius: .3em;
+}
+
+.about-me {
+  margin-top: 9em;
+  padding:  0px 100px;
+  background-color: #DD2613;
+  color: #f2f2f2;
+}
+
+.about-me .container {
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-me .col-right {
+  margin: 13em 2em;
+}
+
+.about-me .col-right .subheading {
+  margin-bottom: 1.2em;
+}
+
+.logosocmed {
+  margin-right: 1.2em;
+  margin-top: 2.4em;
+  height: 1.8em;
+  width: 1.8em;
+}
+
+.logosocmed:hover {
+  transform: scale(1.15);
+  box-shadow: rgb(255, 255, 255) 0px 25px 50px -12px;
+}
+
+.skill {
+  margin-top: 4.8em;
+}
+
+.skill .container {
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill .container .subheading {
+  text-align: center;
+}
+
+.skill .container .mainskill {
+  margin: 4em 32em 0 32em;
+  display: flex;
+}
+
+.skill .container .mainskill .skill-img {
+  width: 20px;
+  height: 20px;
+}
+
+.skill .container .mainskill .skill-img .list-img {
+  width: 68px;
+  height: 68px;
+  margin-bottom: 2.3em;
+}
+
+.skill .container .mainskill .skill-desc {
+  margin-top: 1.4em;
+  margin-left: 6.4em;
+  font-weight: 600;
+}
+
+.skill .container .mainskill .skill-desc .skill-set {
+  margin-bottom: 5.5em;
+}
+
+footer {
+  background-color: #DD2613;
+  margin-top: 4.8em;
+  padding: 3.6em;
+}
+
+footer .container {
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer .container p {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+
